@@ -1,0 +1,132 @@
+#Python program to remove repeated character from string.
+string1 = "Hello How are you"
+msg = {}
+for i in string1:
+    if i in msg:
+        msg[i]+=1
+else:
+    msg[i]=1
+    string2 =""
+for key, value in msg .items():
+    string1+=key
+    print("string1")
+
+
+#Python program to check given character is vowel or consonant.
+
+
+character = input(' Entre the letter')
+if character in 'aeiou':
+    print(character,' is a Vowel')
+else:
+    print(character,'is a consonant')
+
+
+
+#Python program to check given character is digit or not.
+
+#isdigit
+letter = "namratha2416"
+text  = "@#16"
+matter = "123456"
+print(letter.isdigit())
+print(text.isdigit())
+print(matter.isdigit())
+
+#Python program to delete vowels in a given string.
+type = "you are beautiful"
+typing = "aeiou"
+for i in type:
+    if(i not in typing):
+        print(i,end="")
+
+
+#Python program to count the Occurrence Of Vowels & Consonants in a String.
+
+a = input("Enter string:")
+a.lower()
+count=0
+for i in a:
+    if i in ["a", "e", "i","o","u"]:
+        count+=1
+        print("vowels in string are", count)
+
+
+ 
+#Python program to Replace First Occurrence Of Vowel With ‘-‘ in String.
+
+name = "namratha jadhav"
+modified_nmae = name .replace("m","-",1)
+print(modified_nmae)
+
+
+
+#Python program to count alphabets, digits and special characters.
+
+string1 - "namratha"
+string2 = list(string1)
+character=0
+digit=0
+special_character=0
+for i in string2:
+    if i.isalpha()==True:
+        character+=1
+    elif i .isdigit()==True:
+        digit+=1
+    else:
+        special_character+=1
+        print("charcater:",character)
+print("digit:",digit)
+print("special_character:" special_character)
+
+
+#Python program to check given character is digit or not using isdigit() method.
+
+character = input("enter character:")
+if character >= '0' and character <= "8":
+    print("given character",character,"is digit") 
+else:
+  print("given character", character,"is not digit")
+
+
+     
+#Python program to calculate sum of integers in string.
+list= [10,20,30,40,50]
+sum=0
+for i in list:
+    sum=sum+i
+    print("sum of list")
+
+
+
+
+
+#Python program to print all non repeating character in string.
+
+
+name = "namratha jadhav"
+print([i for i in name if name.count(i) ==1])
+
+
+
+
+#Python program to check given character is vowel or consonant.
+character = input("enter a character")
+if character in "aeiou":
+  print(character, "is a vowel")
+else:
+   print(character,"is a consonent")
+
+
+#Python program to check given character is digit or not."""""
+
+character = input("enter a character")
+if character.isalpha():
+    print(character, "is a alphabet")
+elif character.isdigit():
+    print(character,"is a digit")
+elif character.isalnum():
+    print(character, "is a alphanumerical")
+else:
+ print(character,"is a special character")
+
